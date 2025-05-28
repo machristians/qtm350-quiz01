@@ -4,7 +4,7 @@ mkdir reports
 
 cd reports && touch summary.md
 
-echo This document provides a summary of the project updates. >> summary.md
+echo "This document provides a summary of the project updates." >> summary.md
 
 git add .
 
@@ -28,9 +28,9 @@ git commit -m Update project files
 
 touch .gitignore
 
-echo temp/ >> .gitignore
+echo "temp/" >> .gitignore
 
-echo dataset0?.csv >> .gitignore
+echo "dataset0?.csv" >> .gitignore
 
 cat .gitignore
 
